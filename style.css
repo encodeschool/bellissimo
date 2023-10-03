@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+
+	width: 	1174px;
+	margin: auto;
+}
+
+nav ul li {
+	padding: 12px;
+	background: #f4f4f4;
+	margin: 12px;
+	border-radius: 25px;
+	transition: all .3s ease;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav ul li.shopping-bag {
+	margin-left: auto;
+	background-color: #ff002b;
+}
+
+nav ul li.shopping-bag a {
+	color: white;
+}
+
+nav ul li.shopping-bag a span {
+	border-left: 1px solid white;
+	padding-left: 5px;
+}
+
+nav ul li:hover {
+	background-color: rgba(0,111,76,.25);
+}
+
+nav ul li.active {
+	background-color: #006f4c;
+}
+
+nav ul li.active a {
+	color: white;
+}
+
+/* Combo Section Goes Here */
+#combo {
+
+}
+
+#combo .container {
+	width: 1174px;
+	margin: auto;
+}
+
+#combo .container .parent {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#combo .container .parent .child {
+	width: calc(100% / 4.5);
+	margin: 15px;
+}
+
+
+/* Combo Section Ends Here */
